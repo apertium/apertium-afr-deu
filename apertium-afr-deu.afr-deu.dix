@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>aäAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSßšştTŢuUúüưvVwWxXyYzZ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -97,7 +97,81 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+
+      <!-- Neutral nouns -->
+      <e><p><l>boek<s n="n"/></l><r>Buch<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>boom<s n="n"/></l><r>Baum<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>brood<s n="n"/></l><r>Brot<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>fiets<s n="n"/></l><r>Fahrrad<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>huis<s n="n"/></l><r>Haus<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>kamer<s n="n"/></l><r>Zimmer<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>kar<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>kos<s n="n"/></l><r>Essen<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>land<s n="n"/></l><r>Land<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>meisie<s n="n"/></l><r>MÃ¤dchen<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>motor<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>swimbad<s n="n"/></l><r>Schwimmbad<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>water<s n="n"/></l><r>Wasser<s n="n"/><s n="nt"/></r></p></e>
+
+      <!-- Feminine nouns -->
+      <e><p><l>kat<s n="n"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>koerant<s n="n"/></l><r>Zeitung<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>muur<s n="n"/></l><r>Wand<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>skoenlapper<s n="n"/></l><r>Schmetterling<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vrou<s n="n"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
+
+      <!-- Masculine nouns -->
+      <e><p><l>arm<s n="n"/></l><r>Arm<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bestuurder<s n="n"/></l><r>Manager<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>man<s n="n"/></l><r>Mann<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>onderwyser<s n="n"/></l><r>Lehrer<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pen<s n="n"/></l><r>Kügelschreiber<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>potlood<s n="n"/></l><r>Stift<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rekenaar<s n="n"/></l><r>Computer<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rekenaar<s n="n"/></l><r>Computer<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>seun<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>skouer<s n="n"/></l><r>Schulter<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>speler<s n="n"/></l><r>Spieler<s n="n"/><s n="m"/></r></p></e>
+
+      <!-- Proper nouns -->
+      <e><p><l>Duitsland<s n="np"/></l><r>Deutschland<s n="np"/></r></p></e>
+      <e><p><l>Suidafrika<s n="np"/></l><r>Südafrika<s n="np"/></r></p></e>
+
+      <!-- Prepositions -->
+      <e><p><l>aan<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+      <e><p><l>bo<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+      <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+      <e><p><l>langs<s n="pr"/></l><r>neben<s n="pr"/></r></p></e>
+      <e><p><l>na<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+      <e><p><l>na<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+      <e><p><l>onder<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+      <e><p><l>oor<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+      <e><p><l>op<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+      <e><p><l>tussen<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
+      <e><p><l>van<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+      <e><p><l>vir<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+      <e><p><l>voor<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+
+      <!-- Auxiliary verbs -->
+      <e><p><l>kan<s n="vaux"/></l><r>können<s n="vaux"/></r></p></e>
+      <e><p><l>mag<s n="vaux"/></l><r>dürfen<s n="vaux"/></r></p></e>
+      <e><p><l>moet<s n="vaux"/></l><r>müssen<s n="vaux"/></r></p></e>
+      <e><p><l>sal<s n="vaux"/></l><r>werden<s n="vaux"/></r></p></e>
+      <e><p><l>wil<s n="vaux"/></l><r>wollen<s n="vaux"/></r></p></e>
+
+      <!-- Lexical verbs -->
+      <e><p><l>drink<s n="vblex"/></l><r>trinken<s n="vblex"/></r></p></e>
+      <e><p><l>eet<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
+      <e><p><l>gaan<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+      <e><p><l>gebeur<s n="vblex"/></l><r>passieren<s n="vblex"/></r></p></e>
+      <e><p><l>huil<s n="vblex"/></l><r>weinen<s n="vblex"/></r></p></e>
+      <e><p><l>kom<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+      <e><p><l>skryf<s n="vblex"/></l><r>schreiben<s n="vblex"/></r></p></e>
+      <e><p><l>slaap<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+      <e><p><l>staan<s n="vblex"/></l><r>stehen<s n="vblex"/></r></p></e>
+      <e><p><l>staan<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
+      <e><p><l>sterf<s n="vblex"/></l><r>sterben<s n="vblex"/></r></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

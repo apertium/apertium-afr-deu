@@ -1,0 +1,1 @@
+apertium-init.py -pe /home/andi/apertium-afr-deu apertium-afr-deu
