@@ -108,9 +108,9 @@
       <e><p><l>kar<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>kos<s n="n"/></l><r>Essen<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>land<s n="n"/></l><r>Land<s n="n"/><s n="nt"/></r></p></e>
-      <e><p><l>meisie<s n="n"/></l><r>MÃ¤dchen<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>meisie<s n="n"/></l><r>Mädchen<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>motor<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
-      <e><p><l>swimbad<s n="n"/></l><r>Schwimmbad<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>swembad<s n="n"/></l><r>Schwimmbad<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>water<s n="n"/></l><r>Wasser<s n="n"/><s n="nt"/></r></p></e>
 
       <!-- Feminine nouns -->
@@ -146,11 +146,16 @@
       <e><p><l>na<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
       <e><p><l>onder<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
       <e><p><l>oor<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+      <e><p><l>oor<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
       <e><p><l>op<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
       <e><p><l>tussen<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
       <e><p><l>van<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
       <e><p><l>vir<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
       <e><p><l>voor<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+
+      <!-- To be, to have -->
+      <e><p><l>wees<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
+      <e><p><l>hê<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
 
       <!-- Auxiliary verbs -->
       <e><p><l>kan<s n="vaux"/></l><r>können<s n="vaux"/></r></p></e>
@@ -172,9 +177,20 @@
       <e><p><l>staan<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
       <e><p><l>sterf<s n="vblex"/></l><r>sterben<s n="vblex"/></r></p></e>
 
+      <!-- Conjunctive adverbs -->
+      <e><p><l>dus<s n="cnjadv"/></l><r>deshalb<s n="cnjadv"/></r></p></e>
+      <e><p><l>daarom<s n="cnjadv"/></l><r>darum<s n="cnjadv"/></r></p></e>
+
+      <!-- Coordinating conjuctions -->
+      <e><p><l>en<s n="cnjadv"/></l><r>und<s n="cnjadv"/></r></p></e>
+      <e><p><l>maar<s n="cnjadv"/></l><r>aber<s n="cnjadv"/></r></p></e>
+      <e><p><l>of<s n="cnjadv"/></l><r>oder<s n="cnjadv"/></r></p></e>
+      <e><p><l>want<s n="cnjadv"/></l><r>denn<s n="cnjadv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><re>(</re>          <p><l><s n="lpar"/></l>  <r><s n="lpar"/></r></p></e>
+      <e><re>)</re>          <p><l><s n="rpar"/></l>  <r><s n="rpar"/></r></p></e>
    </section>
 </dictionary>
 
