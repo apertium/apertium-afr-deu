@@ -85,3 +85,12 @@ If you need help using this language pair or data, you can contact:
 
 See also the file AUTHORS included in this distribution.
 # apertium-afr-deu
+
+Errors
+-------------------------------------------------------------------------------
+
+Sometimes when translating, you will notice that a particular word gets translated
+with a hash sign in front of it.
+This is because of the current lack of transfer rules, which will be fixed in 
+an upcoming update.
+You did not do anything wrong; it was all me.
