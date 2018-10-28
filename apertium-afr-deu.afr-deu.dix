@@ -96,6 +96,25 @@
 
   </sdefs>
 
+  <pardefs>
+    <pardef n="ord">
+      <e><p><l><s n="adj"/><s n="ord"/></l><r><s n="det"/><s n="ord"/></r></p></e>
+    </pardef>
+
+    <pardef n="Xund">
+      <e><i></i></e>
+      <e><p><l>einund</l><r>eenen</r></p></e>
+      <e><p><l>zweiund</l><r>tweeën</r></p></e>
+      <e><p><l>dreiund</l><r>drieën</r></p></e>
+      <e><p><l>vierund</l><r>vieren</r></p></e>
+      <e><p><l>fünfund</l><r>vijfen</r></p></e>
+      <e><p><l>sechsund</l><r>zesen</r></p></e>
+      <e><p><l>siebenund</l><r>zevenen</r></p></e>
+      <e><p><l>achtund</l><r>achten</r></p></e>
+      <e><p><l>neunund</l><r>negeën</r></p></e>
+    </pardef>
+  </pardefs>
+
   <section id="main" type="standard">
 
     <!-- SECTION: Neutral nouns -->
