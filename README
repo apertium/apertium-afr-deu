@@ -43,16 +43,16 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
-    $  echo "Die seun drink water" | apertium -d . afr-deu
-    #Der #Junge *drink #Wasser
+    $  echo "Die man staan op die rekenaar" | apertium -d . afr-deu
+    #Der #Mann stehen auf #der #Computer
 
-    $ "Der Junge trinkt Wasser" | apertium -d . deu-afr
-    #Die #seun #drink #water
+    $  echo "Der Mann steht auf der Computer" | apertium -d . deu-afr
+    #Die #man #staan #op #die #rekenaar
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
 
-    $  echo "Die seun eet die kos" | apertium -d . afr-deu
-    #Der #Junge essen #der #Essen
+    $  echo "Die onderwyser skryf" | apertium -d . afr-deu
+    #Der #Lehrer schreiben
 
 Files and data
 -------------------------------------------------------------------------------
