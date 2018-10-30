@@ -106,15 +106,15 @@
 
     <pardef n="Xund">
       <e><i></i></e>
-      <e><p><l>einund</l><r>eenen</r></p></e>
-      <e><p><l>zweiund</l><r>tweeën</r></p></e>
-      <e><p><l>dreiund</l><r>drieën</r></p></e>
-      <e><p><l>vierund</l><r>vieren</r></p></e>
-      <e><p><l>fünfund</l><r>vijfen</r></p></e>
-      <e><p><l>sechsund</l><r>zesen</r></p></e>
-      <e><p><l>siebenund</l><r>zevenen</r></p></e>
-      <e><p><l>achtund</l><r>achten</r></p></e>
-      <e><p><l>neunund</l><r>negeën</r></p></e>
+      <e><p><l>een en </l><r>einund</r></p></e>
+      <e><p><l>twee en </l><r>zweiund</r></p></e>
+      <e><p><l>drie en </l><r>dreiund</r></p></e>
+      <e><p><l>vier en </l><r>vierund</r></p></e>
+      <e><p><l>vyf en </l><r>fünfund</r></p></e>
+      <e><p><l>ses en</l><r>sechsund</r></p></e>
+      <e><p><l>sewe en </l><r>siebenund</r></p></e>
+      <e><p><l>agt en </l><r>achtund</r></p></e>
+      <e><p><l>nege en </l><r>neunund</r></p></e>
     </pardef>
   </pardefs>
 
