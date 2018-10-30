@@ -43,6 +43,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"               c="Masculine / Feminine"/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -90,6 +91,8 @@
     <sdef n="rpar"            c="Right parenthesis"/>
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="subj"            c="Subject"/>
 
     <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
@@ -143,17 +146,17 @@
 
     <!-- SECTION: Masculine nouns -->
 
-    <e><p><l>arm<s n="n"/></l><r>Arm<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bestuurder<s n="n"/></l><r>Manager<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>man<s n="n"/></l><r>Mann<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>onderwyser<s n="n"/></l><r>Lehrer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pen<s n="n"/></l><r>Kügelschreiber<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>potlood<s n="n"/></l><r>Stift<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>rekenaar<s n="n"/></l><r>Computer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>rekenaar<s n="n"/></l><r>Computer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>seun<s n="n"/></l><r>Junge<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>skouer<s n="n"/></l><r>Schulter<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>speler<s n="n"/></l><r>Spieler<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arm<s n="n"/><s n="sg"/></l><r>Arm<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>bestuurder<s n="n"/><s n="sg"/></l><r>Manager<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>man<s n="n"/><s n="sg"/></l><r>Mann<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>onderwyser<s n="n"/><s n="sg"/></l><r>Lehrer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>pen<s n="n"/><s n="sg"/></l><r>Kügelschreiber<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>potlood<s n="n"/><s n="sg"/></l><r>Stift<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>rekenaar<s n="n"/><s n="sg"/></l><r>Computer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>rekenaar<s n="n"/><s n="sg"/></l><r>Computer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>seun<s n="n"/><s n="sg"/></l><r>Junge<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>skouer<s n="n"/><s n="sg"/></l><r>Schulter<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>speler<s n="n"/><s n="sg"/></l><r>Spieler<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -169,7 +172,6 @@
     <e><p><l>na<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
     <e><p><l>onder<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
-    <e><p><l>oor<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
     <e><p><l>oor<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
     <e><p><l>op<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
     <e><p><l>tussen<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
@@ -217,7 +219,19 @@
     <e><p><l>maar<s n="cnjadv"/></l><r>aber<s n="cnjadv"/></r></p></e>
     <e><p><l>of<s n="cnjadv"/></l><r>oder<s n="cnjadv"/></r></p></e>
     <e><p><l>want<s n="cnjadv"/></l><r>denn<s n="cnjadv"/></r></p></e>
+    <e><p><l>dog<s n="cnjadv"/></l><r>doch<s n="cnjadv"/></r></p></e>
 
+    <!-- SECTION: Personal Pronouns -->
+
+    <e><p><l>ek<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>jy<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>du<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>hy<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>sy<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>sie<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>dit<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>es<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>ons<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>wir<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>julle<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>ihr<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>hulle<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>sie<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>u<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>Sie<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
