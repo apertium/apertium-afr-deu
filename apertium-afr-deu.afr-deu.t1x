@@ -293,7 +293,7 @@
     </rule>
 
     <!-- het geëet -> haben gegessen -->
-    <rule comment="REGLA: VBAUX VBHAVER">
+    <rule comment="REGLA: VBHAVER VBLEX">
       <pattern>
         <pattern-item n="verbhaver"/>
         <pattern-item n="verbnm"/>
@@ -316,7 +316,7 @@
     </rule>
 
     <!-- het geëet -> aß -->
-    <rule comment="REGLA: VBAUX VBHAVER">
+    <rule comment="REGLA: VBHAVER VBLEX">
       <pattern>
         <pattern-item n="verbhaver"/>
         <pattern-item n="verbnm"/>

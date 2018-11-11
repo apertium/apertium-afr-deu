@@ -93,6 +93,10 @@
     <def-cat n="genitive">
        <cat-item tags="gen"/>
     </def-cat>
+    <def-cat n="droppable-adv">
+      <cat-item lemma="jetzt" tags="adv"/>
+      <cat-item lemma="gerade" tags="adv"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -253,10 +257,10 @@
     </rule>
 
     <!-- singen gerade (or jetzt) -> sing -->
-    <rule comment="REGLA: VBAUX VBHAVER">
+    <rule comment="REGLA: VBLEX ADV">
       <pattern>
         <pattern-item n="verbnm"/>
-        <pattern-item n="adv"/>
+        <pattern-item n="droppable-adv"/>
       </pattern>
       <action>
         <out>
@@ -270,10 +274,10 @@
     </rule>
 
     <!-- singen gerade (or jetzt) -> is besig om te sing -->
-    <rule comment="REGLA: VBAUX VBHAVER">
+    <rule comment="REGLA: VBLEX ADV">
       <pattern>
         <pattern-item n="verbnm"/>
-        <pattern-item n="adv"/>
+        <pattern-item n="droppable-adv"/>
       </pattern>
       <action>
         <out>
