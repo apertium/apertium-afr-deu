@@ -358,6 +358,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
@@ -365,6 +366,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
@@ -372,6 +374,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
@@ -379,6 +382,7 @@
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
         </out>
@@ -398,6 +402,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
@@ -405,6 +410,7 @@
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="case"/>
           </lu>
         </out>
