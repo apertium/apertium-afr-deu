@@ -179,6 +179,9 @@
     <def-attr n="stress">
       <attr-item tags="uns"/>
     </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="gen"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -327,6 +330,77 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="temps"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <!-- die seun se kos -> das Essen des Junges -->
+    <rule comment="REGLA: DET N GEN N">
+      <pattern>
+        <pattern-item n="det">
+        <pattern-item n="nom">
+        <pattern-item n="genitive"/>
+        <pattern-item n="nom"/>
+      </pattern-item>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="temps"/>
+          </lu>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <!-- Anna se kos -> Annas Essen -->
+    <rule comment="REGLA: N GEN N">
+      <pattern>
+        <pattern-item n="nom">
+        <pattern-item n="genitive"/>
+        <pattern-item n="nom"/>
+      </pattern-item>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_gen"/>
+            <clip pos="1" side="tl" part="temps"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="temps"/>
           </lu>
         </out>
       </action>
