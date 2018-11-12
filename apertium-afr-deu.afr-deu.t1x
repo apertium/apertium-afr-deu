@@ -179,8 +179,11 @@
     <def-attr n="stress">
       <attr-item tags="uns"/>
     </def-attr>
-    <def-attr n="a_gen">
+    <def-attr n="case">
       <attr-item tags="gen"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="nom"/>
+      <attr-item tags="dat"/>
     </def-attr>
   </section-def-attrs>
 
@@ -267,6 +270,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
         </out>
       </action>
@@ -284,12 +288,14 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_verb"/>
             <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
         </out>
       </action>
@@ -307,18 +313,20 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_verb"/>
             <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
         </out>
       </action>
     </rule>
 
-    <!-- het geëet -> aß -->
+    <!-- het geëet -> aßen -->
     <rule comment="REGLA: VBHAVER VBLEX">
       <pattern>
         <pattern-item n="verbhaver"/>
@@ -330,6 +338,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="pers"/>
           </lu>
         </out>
       </action>
@@ -348,30 +357,27 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="gen"/>
           </lu>
           <b/>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case">
           </lu>
           <b/>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="gen"/>
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="temps"/>
-          </lu>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_gen"/>
-            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case">
           </lu>
         </out>
       </action>
@@ -389,18 +395,15 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="temps"/>
-          </lu>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_gen"/>
-            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case">
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case">
           </lu>
         </out>
       </action>
