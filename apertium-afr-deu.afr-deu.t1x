@@ -347,37 +347,39 @@
     <!-- die seun se kos -> das Essen des Junges -->
     <rule comment="REGLA: DET N GEN N">
       <pattern>
-        <pattern-item n="det">
-        <pattern-item n="nom">
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
         <pattern-item n="genitive"/>
         <pattern-item n="nom"/>
-      </pattern-item>
+      </pattern>
       <action>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="case">
+            <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_det"/>
             <clip pos="2" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="case">
+            <clip pos="1" side="tl" part="case"/>
           </lu>
         </out>
       </action>
@@ -386,24 +388,24 @@
     <!-- Anna se kos -> Annas Essen -->
     <rule comment="REGLA: N GEN N">
       <pattern>
-        <pattern-item n="nom">
+        <pattern-item n="nom"/>
         <pattern-item n="genitive"/>
         <pattern-item n="nom"/>
-      </pattern-item>
+      </pattern>
       <action>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="case">
+            <clip pos="1" side="tl" part="case"/>
           </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="case">
+            <clip pos="1" side="tl" part="case"/>
           </lu>
         </out>
       </action>
