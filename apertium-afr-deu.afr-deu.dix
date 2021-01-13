@@ -122,10 +122,13 @@
 
     <!-- SECTION: Neutral nouns -->
 
+    <e><p><l>badkamer<s n="n"/></l><r>Badezimmer<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>blad<s n="n"/></l><r>Blatt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>boek<s n="n"/></l><r>Buch<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>boom<s n="n"/></l><r>Baum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>brood<s n="n"/></l><r>Brot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>fiets<s n="n"/></l><r>Fahrrad<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>gevangenis<s n="n"/></l><r>Gefängnis<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huis<s n="n"/></l><r>Haus<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kamer<s n="n"/></l><r>Zimmer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kar<s n="n"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
@@ -138,9 +141,13 @@
 
     <!-- SECTION: Feminine nouns -->
 
+    <e><p><l>Apartheid<s n="n"/></l><r>Apartheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kat<s n="n"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>koerant<s n="n"/></l><r>Zeitung<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ma<s n="n"/></l><r>Mutter<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muur<s n="n"/></l><r>Wand<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>roomys<s n="n"/></l><r>Eiscreme<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>siel<s n="n"/></l><r>Seele<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skoenlapper<s n="n"/></l><r>Schmetterling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vrou<s n="n"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
 
@@ -148,15 +155,18 @@
 
     <e><p><l>arm<s n="n"/><s n="sg"/></l><r>Arm<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>bestuurder<s n="n"/><s n="sg"/></l><r>Manager<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>boom<s n="n"/><s n="sg"/></l><r>Baum<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>enkeling<s n="n"/><s n="sg"/></l><r>Single<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>man<s n="n"/><s n="sg"/></l><r>Mann<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>onderwyser<s n="n"/><s n="sg"/></l><r>Lehrer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>pa<s n="n"/><s n="sg"/></l><r>Vater<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>pen<s n="n"/><s n="sg"/></l><r>Kügelschreiber<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>potlood<s n="n"/><s n="sg"/></l><r>Stift<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
-    <e><p><l>rekenaar<s n="n"/><s n="sg"/></l><r>Computer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>rekenaar<s n="n"/><s n="sg"/></l><r>Computer<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>seun<s n="n"/><s n="sg"/></l><r>Junge<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>skouer<s n="n"/><s n="sg"/></l><r>Schulter<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
     <e><p><l>speler<s n="n"/><s n="sg"/></l><r>Spieler<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
+    <e><p><l>tuin<s n="n"/><s n="sg"/></l><r>Garten<s n="n"/><s n="sg"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -194,24 +204,60 @@
 
     <!-- SECTION: Lexical verbs -->
 
+    <e><p><l>bak<s n="vblex"/></l><r>backen<s n="vblex"/></r></p></e>
+    <e><p><l>begin<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
+    <e><p><l>breek<s n="vblex"/></l><r>brechen<s n="vblex"/></r></p></e>
+    <e><p><l>dink<s n="vblex"/></l><r>denken<s n="vblex"/></r></p></e>
+    <e><p><l>doen<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
+    <e><p><l>doen<s n="vblex"/></l><r>tun<s n="vblex"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>trinken<s n="vblex"/></r></p></e>
     <e><p><l>eet<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
     <e><p><l>gaan<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
     <e><p><l>gebeur<s n="vblex"/></l><r>passieren<s n="vblex"/></r></p></e>
     <e><p><l>gebruik<s n="vblex"/></l><r>benutzen<s n="vblex"/></r></p></e>
+    <e><p><l>gee<s n="vblex"/></l><r>geben<s n="vblex"/></r></p></e>
+    <e><p><l>geniet<s n="vblex"/></l><r>genießen<s n="vblex"/></r></p></e>
+    <e><p><l>gooi<s n="vblex"/></l><r>werfen<s n="vblex"/></r></p></e>
+    <e><p><l>hardloop<s n="vblex"/></l><r>laufen<s n="vblex"/></r></p></e>
+    <e><p><l>hardloop<s n="vblex"/></l><r>rennen<s n="vblex"/></r></p></e>
     <e><p><l>huil<s n="vblex"/></l><r>weinen<s n="vblex"/></r></p></e>
     <e><p><l>kom<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+    <e><p><l>maak<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
+    <e><p><l>neem<s n="vblex"/></l><r>nehmen<s n="vblex"/></r></p></e>
     <e><p><l>nodig<s n="vblex"/></l><r>brauchen<s n="vblex"/></r></p></e>
+    <e><p><l>sien<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+    <e><p><l>sing<s n="vblex"/></l><r>singen<s n="vblex"/></r></p></e>
+    <e><p><l>sit<s n="vblex"/></l><r>setzen<s n="vblex"/></r></p></e>
+    <e><p><l>sit<s n="vblex"/></l><r>sitzen<s n="vblex"/></r></p></e>
+    <e><p><l>skreeu<s n="vblex"/></l><r>schreien<s n="vblex"/></r></p></e>
     <e><p><l>skryf<s n="vblex"/></l><r>schreiben<s n="vblex"/></r></p></e>
     <e><p><l>slaap<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+    <e><p><l>smaak<s n="vblex"/></l><r>schmecken<s n="vblex"/></r></p></e>
+    <e><p><l>sny<s n="vblex"/></l><r>schneien<s n="vblex"/></r></p></e>
+    <e><p><l>spring<s n="vblex"/></l><r>springen<s n="vblex"/></r></p></e>
     <e><p><l>staan<s n="vblex"/></l><r>stehen<s n="vblex"/></r></p></e>
     <e><p><l>staan<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
     <e><p><l>sterf<s n="vblex"/></l><r>sterben<s n="vblex"/></r></p></e>
+    <e><p><l>swem<s n="vblex"/></l><r>schwimmen<s n="vblex"/></r></p></e>
+    <e><p><l>teken<s n="vblex"/></l><r>zeichnen<s n="vblex"/></r></p></e>
+    <e><p><l>trek<s n="vblex"/></l><r>ziehen<s n="vblex"/></r></p></e>
+    <e><p><l>vergelyk<s n="vblex"/></l><r>vergleichen<s n="vblex"/></r></p></e>
+    <e><p><l>verloor<s n="vblex"/></l><r>verloren<s n="vblex"/></r></p></e>
+    <e><p><l>vlieg<s n="vblex"/></l><r>fliegen<s n="vblex"/></r></p></e>
+    <e><p><l>wag<s n="vblex"/></l><r>warten<s n="vblex"/></r></p></e>
+    <e><p><l>was<s n="vblex"/></l><r>wassen<s n="vblex"/></r></p></e>
+    <e><p><l>weet<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+    <e><p><l>wen<s n="vblex"/></l><r>gewinnen<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Conjunctive adverbs -->
 
     <e><p><l>dus<s n="cnjadv"/></l><r>deshalb<s n="cnjadv"/></r></p></e>
     <e><p><l>daarom<s n="cnjadv"/></l><r>darum<s n="cnjadv"/></r></p></e>
+    <e><p><l>daaroor<s n="cnjadv"/></l><r>darüber<s n="cnjadv"/></r></p></e>
+    <e><p><l>daarop<s n="cnjadv"/></l><r>darauf<s n="cnjadv"/></r></p></e>
+    <e><p><l>daaruit<s n="cnjadv"/></l><r>daraus<s n="cnjadv"/></r></p></e>
+    <e><p><l>daarvan<s n="cnjadv"/></l><r>davon<s n="cnjadv"/></r></p></e>
+    <e><p><l>daarvoor<s n="cnjadv"/></l><r>dafür<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Coordinating conjuctions -->
 
