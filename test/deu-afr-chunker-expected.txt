@@ -1,0 +1,38 @@
+[5COn_XIIvOxN#0] ^default<default>{^gebeur<vblex><prs><p2><pl>$}$
+[/5COn_XIIvOxN]
+[5b8fA8rP9q3w#0] ^default<default>{^in<pr><acc>$}$ ^default<default>{^die<det><def><nt><sg><acc>$}$
+[/5b8fA8rP9q3w]
+[7szvGsIbEYn9#0] ^default<default>{^na<pr><dat>$}$ ^default<default>{^die<det><def><m><sg><dat>$}$
+[/7szvGsIbEYn9]
+[GB3a3W60QVmo#0] ^default<default>{^gebeur<vblex><pp>$}$
+[/GB3a3W60QVmo]
+[L_7CEU563h4y#0] ^default<default>{^weet<vblex><pp>$}$
+[/L_7CEU563h4y]
+[MYFWTir7V4XC#0] ^default<default>{^fiets<n><sg><gen>$}$
+[/MYFWTir7V4XC]
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[QkyO2o46Fqes#0] ^default<default>{^op<pr><dat>$}$
+[/QkyO2o46Fqes]
+[SyJ3d9TdH8Yc#0] ^default<default>{^4<num>$}$
+[/SyJ3d9TdH8Yc]
+[U5C1CQ0szvOl#0] ^default<default>{^gebeur<vblex><imp><sg>$}$
+[/U5C1CQ0szvOl]
+[Xs0tjGGUfluV#0] ^default<default>{^vir<pr><acc>$}$ ^default<default>{^die<det><def><nt><sg><acc>$}$
+[/Xs0tjGGUfluV]
+[dLxnbm1QxnPV#0] ^default<default>{^gebeur<vblex><prs><p3><sg>$}$
+[/dLxnbm1QxnPV]
+[gc7ItPpIcN5n#0] ^default<default>{^dink<vblex><pp>$}$
+[/gc7ItPpIcN5n]
+[io3oI9XtPhJ0#0] ^sent<SENT>{^?<sent>$}$
+[/io3oI9XtPhJ0]
+[kp8cpLK-WNeM#0] ^default<default>{^voor<pr><dat>$}$
+[/kp8cpLK-WNeM]
+[pO-m0Rw8Q0hV#0] ^default<default>{^hê<vbhaver><pri><p1><sg>$}$
+[/pO-m0Rw8Q0hV]
+[tUxqxEJJyL7W#0] ^default<default>{^gebeur<vblex><pri><p2><sg>$}$
+[/tUxqxEJJyL7W]
+[u3IIvJtdfATx#0] ^sent<SENT>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]

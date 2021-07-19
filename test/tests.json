@@ -1,0 +1,10 @@
+{
+    "afr-deu": {
+        "input": "afr-deu-input.txt",
+        "mode": "afr-deu"
+    },
+    "deu-afr": {
+        "input": "deu-afr-input.txt",
+        "mode": "deu-afr"
+    }
+}

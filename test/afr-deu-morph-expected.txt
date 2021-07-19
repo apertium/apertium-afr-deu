@@ -1,0 +1,18 @@
+[GZTXe3z0hgph#0] ^trek/trek<vblex><inf>/trek<vblex><pres>$
+[/GZTXe3z0hgph]
+[MLRDrDltU3Dd#0] ^gebegin/begin<vblex><pp>$
+[/MLRDrDltU3Dd]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[WClnU00PkJ0Z#0] ^in/in<pr>$
+[/WClnU00PkJ0Z]
+[cWthP1wz4onF#0] ^gebreek/breek<vblex><pp>$
+[/cWthP1wz4onF]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[j_XU9OYq7Bs8#0] ^sy/sy<det><pos><sp>$
+[/j_XU9OYq7Bs8]
+[ul7FHQekrA6V#0] ^)/)<rpar>$
+[/ul7FHQekrA6V]
+[zbTuKuppzGqD#0] ^./.<sent>$
+[/zbTuKuppzGqD]

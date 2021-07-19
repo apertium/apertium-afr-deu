@@ -1,0 +1,38 @@
+[5COn_XIIvOxN#0] ^passieren<vblex><prs><p2><pl>$
+[/5COn_XIIvOxN]
+[5b8fA8rP9q3w#0] ^in<pr><acc>+der<det><def><nt><sg><acc>$
+[/5b8fA8rP9q3w]
+[7szvGsIbEYn9#0] ^zu<pr><dat>+der<det><def><m><sg><dat>$
+[/7szvGsIbEYn9]
+[GB3a3W60QVmo#0] ^passieren<vblex><pp>$
+[/GB3a3W60QVmo]
+[L_7CEU563h4y#0] ^wissen<vblex><pp>$
+[/L_7CEU563h4y]
+[MYFWTir7V4XC#0] ^Fahrrad<n><nt><sg><gen>$
+[/MYFWTir7V4XC]
+[Muuxq8wcYBzr#0] ^(<lpar>$
+[/Muuxq8wcYBzr]
+[QkyO2o46Fqes#0] ^auf<pr><dat>$
+[/QkyO2o46Fqes]
+[SyJ3d9TdH8Yc#0] ^4<num>$
+[/SyJ3d9TdH8Yc]
+[U5C1CQ0szvOl#0] ^passieren<vblex><imp><sg>$
+[/U5C1CQ0szvOl]
+[Xs0tjGGUfluV#0] ^für<pr><acc>+der<det><def><nt><sg><acc>$
+[/Xs0tjGGUfluV]
+[dLxnbm1QxnPV#0] ^passieren<vblex><prs><p3><sg>$
+[/dLxnbm1QxnPV]
+[gc7ItPpIcN5n#0] ^denken<vblex><pp>$
+[/gc7ItPpIcN5n]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[kp8cpLK-WNeM#0] ^vor<pr><dat>$
+[/kp8cpLK-WNeM]
+[pO-m0Rw8Q0hV#0] ^haben<vbhaver><pri><p1><sg>$
+[/pO-m0Rw8Q0hV]
+[tUxqxEJJyL7W#0] ^passieren<vblex><pri><p2><sg>$
+[/tUxqxEJJyL7W]
+[u3IIvJtdfATx#0] ^!<sent>$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^)<rpar>$
+[/ul7FHQekrA6V]
